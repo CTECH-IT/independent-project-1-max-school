@@ -3,3 +3,7 @@ header {
   background-color: inherit;
   color: orange;
 }
+
+body {
+  background-color: red;
+}
