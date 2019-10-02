@@ -7,3 +7,13 @@ header {
 body {
   background-color: red;
 }
+
+.food-image {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.list-text {
+  display: flex;
+  flex: 0 1 auto;
+}
