@@ -5,7 +5,7 @@ header {
 }
 
 body {
-  background-color: red;
+  background-color: pink;
 }
 
 .food-image {
@@ -13,7 +13,18 @@ body {
   flex: 1 1 auto;
 }
 
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
 .list-text {
+  font-family: 'Big Shoulders Display';
   display: flex;
   flex: 0 1 auto;
+}
+
+.place {
+  display: flex;
+  flex-direction: row-reverse;
 }
