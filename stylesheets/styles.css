@@ -10,7 +10,7 @@ body {
 
 .food-image {
   display: flex;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
 }
 
 .menu {
@@ -27,4 +27,12 @@ body {
 .place {
   display: flex;
   flex-direction: row-reverse;
+}
+
+.place-image {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1 1 auto;
+  height: 250px;
+  width: 275px;
 }
