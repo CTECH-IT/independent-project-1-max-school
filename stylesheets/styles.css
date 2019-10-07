@@ -36,3 +36,8 @@ body {
   height: 250px;
   width: 275px;
 }
+
+.hidden-prop {
+  transform: translate(120px, 150%);
+  transition: transform 133ms;
+}
