@@ -37,7 +37,7 @@ body {
   width: 275px;
 }
 
-.hidden-prop {
+.sad-image:hover {
   transform: translate(120px, 150%);
   transition: transform 133ms;
 }
