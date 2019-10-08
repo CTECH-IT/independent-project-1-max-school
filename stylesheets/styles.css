@@ -41,3 +41,11 @@ body {
   transform: translate(120px, 150%);
   transition: transform 133ms;
 }
+
+.sad-image {
+  display: flex;
+  flex-direction: row-reverse;
+  flex: 1 0 auto;
+  height: 250px;
+  width: 275px;
+}
