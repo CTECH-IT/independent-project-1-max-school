@@ -1,11 +1,14 @@
 /* Put your CSS here */
 header {
   background-color: inherit;
-  color: orange;
 }
 
 body {
   background-color: pink;
+}
+
+#page-title {
+  color: orange;
 }
 
 .food-image {
