@@ -4,7 +4,7 @@ header {
 }
 
 body {
-  background-color: pink;
+  background-color: white;
 }
 
 #page-title {
@@ -51,4 +51,8 @@ body {
   flex: 1 0 auto;
   height: 250px;
   width: 275px;
+}
+
+.food-container {
+  
 }
