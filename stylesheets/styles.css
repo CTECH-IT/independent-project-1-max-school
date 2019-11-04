@@ -12,19 +12,20 @@ body {
 }
 
 .food-image {
-  display: flex;
-  flex: 0 1 auto;
+  display: block;
+  width: 350px;
+  height: 350px;
 }
 
 .menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .list-text {
   font-family: 'Big Shoulders Display';
-  display: flex;
-  flex: 1 1 auto;
+  display: block;
+  width: 450px;
 }
 
 .place {
@@ -40,19 +41,8 @@ body {
   width: 275px;
 }
 
-.sad-image:hover {
-  transform: translate(120px, 150%);
-  transition: transform 133ms;
-}
-
-.sad-image {
-  display: flex;
-  flex-direction: row-reverse;
-  flex: 1 0 auto;
-  height: 250px;
-  width: 275px;
-}
 
 .food-container {
-  
+  display: flex;
+  flex-wrap: wrap;
 }

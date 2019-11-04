@@ -8,3 +8,7 @@ function setDetails(imageUrl) {
   let restImage = document.querySelector(REST_IMAGE_SELECTOR);
   restImage.setAttribute('src', imageUrl);
 }
+
+function imageFromThumb(thumbnail) {
+  
+}
