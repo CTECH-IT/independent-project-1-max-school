@@ -10,5 +10,6 @@ function setDetails(imageUrl) {
 }
 
 function imageFromThumb(thumbnail) {
-  
+  'use strict'
+  return thumbnail.getAttribute('data-image-url');
 }
