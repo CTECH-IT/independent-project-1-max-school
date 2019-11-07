@@ -21,6 +21,7 @@ body {
 .menu {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .list-text {
@@ -46,4 +47,11 @@ body {
 .food-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: 20px;
 }

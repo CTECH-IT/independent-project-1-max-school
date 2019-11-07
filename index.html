@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-    <title>Resturaunt Menu</title>
-    <meta name="author" content="Max Kiger">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <title>Resturaunt Menu</title>
+  <meta name="author" content="Max Kiger">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="stylesheets/styles.css">
-  </head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="stylesheets/styles.css">
+</head>
 
 <body>
   <header>
     <h1 id="page-title">Our Menu</h1>
   </header>
-
-  <ul class="menu">
-    <li class="list-text">cheeseburger</li>
-    <li class="list-text">soup</li>
-  </ul>
-  <div class="food-container">
-    <a href="img/soup.jpg" data-image-role="trigger"
-                            data-image-url="img/soup.jpg">
-      <img class="food-image" src="img/soup.jpg" alt="a good soup">
-    </a>
-    <a href="img/300px-Cheeseburger_with_fries.jpg" data-image-role="trigger"
-                                                    data-image-url="img/300px-Cheeseburger_with_fries.jpg">
-      <img class="food-image" src="img/300px-Cheeseburger_with_fries.jpg" alt="delicious cheeseburger">
-    </a>
+  <div class="list-container">
+    <ul class="menu">
+      <li class="list-text">cheeseburger</li>
+      <li class="list-text">soup</li>
+    </ul>
+    <div class="food-container">
+      <a class="food-link" href="img/soup.jpg" data-image-role="trigger" data-image-url="img/soup.jpg">
+        <img class="food-image" src="img/soup.jpg" alt="a good soup">
+      </a>
+      <a class="food-link" href="img/300px-Cheeseburger_with_fries.jpg" data-image-role="trigger" data-image-url="img/300px-Cheeseburger_with_fries.jpg">
+        <img class="food-image" src="img/300px-Cheeseburger_with_fries.jpg" alt="delicious cheeseburger">
+      </a>
+    </div>
   </div>
-  <h2 class="place">location</h2>
+<!--  <h2 class="place">location</h2> -->
   <img class="place-image" data-image-role="target" src="img/Toms_Restaurant,_NYC.jpg" alt="our resturaunt">
   <!-- By Rdikeman at the English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=524749 -->
 
   <script src="scripts/main.js"></script>
 </body>
+
 </html>
